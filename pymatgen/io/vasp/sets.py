@@ -10,7 +10,9 @@ high throughput project.  The basic concept behind an input set is to specify
 a scheme to generate a consistent set of VASP inputs from a structure
 without further user intervention. This ensures comparability across
 runs.
-
+该模块定义了VaspInputSet抽象基类，以及由pymatgen核心团队开发和测试的参数的具体实现，
+其中包括材料虚拟实验室，材料项目和MIT高通量项目。 输入集背后的基本概念是指定一种方案，
+以从结构中生成一致的VASP输入集，而无需进一步的用户干预。 这样可以确保各个运行之间的可比性。
 Read the following carefully before implementing new input sets:
 
 1. 99% of what needs to be done can be done by specifying user_incar_settings
